@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5B7771031CBF84B200D2C948 /* JTChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7771021CBF84B200D2C948 /* JTChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B7771161CBF8F4B00D2C948 /* IMChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7771151CBF8F4B00D2C948 /* IMChatViewController.swift */; };
+		874985D11D98D9C600ACB410 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874985CF1D98D9B600ACB410 /* Result.framework */; };
+		874985D21D98D9CB00ACB410 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874985CD1D98D9B200ACB410 /* ReactiveCocoa.framework */; };
 		A3247CAE1CEB07D700799AA2 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3247C9E1CEB07D700799AA2 /* check@2x.png */; };
 		A3247CAF1CEB07D700799AA2 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3247C9F1CEB07D700799AA2 /* clock@2x.png */; };
 		A3247CB01CEB07D700799AA2 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3247CA01CEB07D700799AA2 /* cross@2x.png */; };
@@ -25,8 +27,6 @@
 		A3247CBB1CEB07D700799AA2 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3247CAB1CEB07D700799AA2 /* SWUtilityButtonTapGestureRecognizer.m */; };
 		A3247CBC1CEB07D700799AA2 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3247CAC1CEB07D700799AA2 /* SWUtilityButtonView.h */; };
 		A3247CBD1CEB07D700799AA2 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3247CAD1CEB07D700799AA2 /* SWUtilityButtonView.m */; };
-		A3360EE11CE42D790088D697 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3360EE01CE42D790088D697 /* Result.framework */; };
-		A3360EE31CE42D840088D697 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3360EE21CE42D840088D697 /* ReactiveCocoa.framework */; };
 		A3648C691CE21185003106EE /* UIView+GetUIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A3648C671CE21185003106EE /* UIView+GetUIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3648C6A1CE21185003106EE /* UIView+GetUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3648C681CE21185003106EE /* UIView+GetUIViewController.m */; };
 		A37541301CD20E5800DFCD8C /* NSString+MessageInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = A375405A1CD20E5800DFCD8C /* NSString+MessageInputView.h */; };
@@ -477,6 +477,8 @@
 		5B7771021CBF84B200D2C948 /* JTChat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTChat.h; sourceTree = "<group>"; };
 		5B7771041CBF84B200D2C948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B7771151CBF8F4B00D2C948 /* IMChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMChatViewController.swift; sourceTree = "<group>"; };
+		874985CD1D98D9B200ACB410 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		874985CF1D98D9B600ACB410 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		A3247C9E1CEB07D700799AA2 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
 		A3247C9F1CEB07D700799AA2 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
 		A3247CA01CEB07D700799AA2 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
@@ -493,8 +495,6 @@
 		A3247CAB1CEB07D700799AA2 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
 		A3247CAC1CEB07D700799AA2 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
 		A3247CAD1CEB07D700799AA2 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
-		A3360EE01CE42D790088D697 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../../Library/Developer/Xcode/DerivedData/DDQP-Swift-gxxznqtbctwzwcfsaqfvcwfwbudm/Build/Products/Debug-iphoneos/Result.framework"; sourceTree = "<group>"; };
-		A3360EE21CE42D840088D697 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../../Library/Developer/Xcode/DerivedData/DDQP-Swift-gxxznqtbctwzwcfsaqfvcwfwbudm/Build/Products/Debug-iphoneos/ReactiveCocoa.framework"; sourceTree = "<group>"; };
 		A3648C671CE21185003106EE /* UIView+GetUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GetUIViewController.h"; sourceTree = "<group>"; };
 		A3648C681CE21185003106EE /* UIView+GetUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetUIViewController.m"; sourceTree = "<group>"; };
 		A375405A1CD20E5800DFCD8C /* NSString+MessageInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MessageInputView.h"; sourceTree = "<group>"; };
@@ -945,8 +945,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3360EE31CE42D840088D697 /* ReactiveCocoa.framework in Frameworks */,
-				A3360EE11CE42D790088D697 /* Result.framework in Frameworks */,
+				874985D21D98D9CB00ACB410 /* ReactiveCocoa.framework in Frameworks */,
+				874985D11D98D9C600ACB410 /* Result.framework in Frameworks */,
 				A3A250201CC63A51009724C7 /* MobileCoreServices.framework in Frameworks */,
 				A3A2501E1CC63A44009724C7 /* Security.framework in Frameworks */,
 				A3A2501C1CC63A3C009724C7 /* CFNetwork.framework in Frameworks */,
@@ -968,8 +968,6 @@
 		5B7770F51CBF84B200D2C948 = {
 			isa = PBXGroup;
 			children = (
-				A3360EE21CE42D840088D697 /* ReactiveCocoa.framework */,
-				A3360EE01CE42D790088D697 /* Result.framework */,
 				A3A2501F1CC63A51009724C7 /* MobileCoreServices.framework */,
 				A3A2501D1CC63A44009724C7 /* Security.framework */,
 				A3A2501B1CC63A3C009724C7 /* CFNetwork.framework */,
@@ -983,6 +981,7 @@
 				A3A2500B1CC63965009724C7 /* libsqlite3.0.tbd */,
 				5B7771011CBF84B200D2C948 /* JTChat */,
 				5B7771001CBF84B200D2C948 /* Products */,
+				874985CC1D98D9B200ACB410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1017,6 +1016,15 @@
 				A3BF15881CCF5B31005D4723 /* ChatListViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		874985CC1D98D9B200ACB410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874985CF1D98D9B600ACB410 /* Result.framework */,
+				874985CD1D98D9B200ACB410 /* ReactiveCocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A3247C9D1CEB07D700799AA2 /* SWTableViewCell */ = {
@@ -1914,6 +1922,7 @@
 				5B7770FB1CBF84B200D2C948 /* Frameworks */,
 				5B7770FC1CBF84B200D2C948 /* Headers */,
 				5B7770FD1CBF84B200D2C948 /* Resources */,
+				874985D31D98D9EE00ACB410 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -2161,6 +2170,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		874985D31D98D9EE00ACB410 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B7770FA1CBF84B200D2C948 /* Sources */ = {
@@ -2427,6 +2454,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/JTChat/JPush",
 					"$(PROJECT_DIR)/JTChat/ReactiveCocoa/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = JTChat/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2463,6 +2491,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/JTChat/JPush",
 					"$(PROJECT_DIR)/JTChat/ReactiveCocoa/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = JTChat/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
